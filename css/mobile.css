@@ -1,0 +1,97 @@
+/* navbar */
+#navbar h1 {
+    float: none;
+    text-align: center;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+#navbar ul li {
+    margin: 0;
+}
+
+#navbar ul li a {
+    padding: 5px;
+    border-bottom: #444 dotted 1px;
+}
+
+/*showcase */
+
+#showcase{
+    height: auto;
+}
+
+#showcase .showcase-content {
+    padding: 70px 0 30px;
+}
+
+/* info */
+#info {
+    height: auto;
+}
+
+#info .info-img {
+    display: none;
+}
+
+#info .info-content {
+    width: 100%;
+}
+
+/* features */
+
+#features {
+    display: flex;
+    flex-direction: column;
+}
+
+#features .box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 40px;
+}
+
+/* about */
+#about-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#about-info .info-left,
+#about-info .info-right {
+    width: 100%;
+}
+
+#about-info .info-right {
+    margin-top: 30px;
+}
+
+#about-info .info-left h1 {
+    text-align: center;
+}
+
+
+/* contact info */
+#contact-form h1,
+#contact-form p {
+    text-align: center;
+}
+
+#contact-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#contact-info .box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-bottom: #444 dotted 1px;
+}
